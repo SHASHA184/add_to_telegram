@@ -12,7 +12,7 @@ if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 
 logging.basicConfig(
-    filename='log.txt',
+    filename='log.log',
     level=logging.INFO,
     format="%(asctime)s - [%(levelname)s] - %(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s",
 )
